@@ -29,3 +29,18 @@
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+
+  img {
+    filter: blur(5px);
+    transform: 10s;
+  }
+
+
+  img:hover {
+    filter: none;
+    transition: width 10s, height 10s;
+    transition-delay: 10s;
+  }
+  
+
+  
